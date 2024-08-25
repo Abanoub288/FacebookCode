@@ -1,0 +1,136 @@
+img {
+  object-fit: cover;
+}
+.post-you {
+  background-color: white;
+  width: 80%;
+  margin: 20px auto;
+  border-radius: 10px;
+}
+.post-you .creat {
+  padding: 20px;
+}
+.post-you .creat img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  margin-right: 10px;
+}
+.post-you .creat input {
+  background-color: rgba(192, 192, 192, 0.546);
+  border-radius: 50px;
+}
+.post-you .creat input::placeholder {
+  font-size: 20px;
+}
+.post-you hr {
+  width: 90%;
+  height: 1px;
+  margin: auto;
+  background-color: rgba(192, 192, 192, 0.546);
+}
+.post-you .options {
+  margin: auto;
+  width: 80%;
+  padding: 15px;
+}
+.post-you .options .option {
+  cursor: pointer;
+}
+.post-you .options .one {
+  margin-right: 30px;
+}
+.post-you .options .option i {
+  font-size: 1.8rem;
+  margin-right: 10px;
+  margin-bottom: 5px;
+}
+.post-you .options .option h5 {
+  font: 1em sans-serif;
+  font-weight: 600;
+  color: #8a8a8d;
+}
+.post {
+  width: 80%;
+  margin: 20px auto;
+  background-color: white;
+  border-radius: 10px;
+}
+.post .post-frin {
+  padding: 15px;
+}
+.post .post-frin img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  margin-right: 10px;
+  margin-bottom: 16px;
+}
+.post .post-frin h5 {
+  font-size: 18px;
+  font-weight: 600;
+}
+.post .post-frin .ditals {
+  margin-top: -6px;
+}
+.post .post-frin .ditals i {
+  margin-left: 8px;
+  margin-bottom: 10px;
+  font-size: 0.7rem;
+}
+.post .post-frin h5,
+.post .post-frin .ditals p,
+.post .post-frin .ditals i{
+  color: #535354;
+}
+.post .body {
+  padding: 15px;
+  margin-top: -32px;
+}
+.post .vote {
+  width: 80%;
+  margin: -22px auto 4px;
+  justify-content: space-between;
+  align-items: center;
+}
+.post .vote2 {
+  margin: 11px auto 4px;
+}
+.post .vote i {
+  font-size: 1.5rem;
+  margin-left: 2px;
+  margin-bottom: 10px;
+}
+.post .vote span {
+  font-size: 1.2rem;
+  margin-left: 5px;
+}
+.post .hr {
+  width: 90%;
+  margin: auto;
+  height: 2px;
+}
+.post .row {
+  width: 90%;
+  margin: auto;
+  position: relative;
+}
+.post .row .li-co {
+  margin-left: 85px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.post .row .li-co i {
+  font-size: 1.5rem;
+  margin-right: 10px;
+  margin-bottom: 5px;
+}
+.post .row .li-co h5 {
+  font-size: 1.5rem;
+}
+.post .img {
+  width: 100%;
+  height: 400px;
+}
+

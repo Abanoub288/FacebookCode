@@ -1,0 +1,96 @@
+nav {
+  height: 70px;
+  background-color: white !important;
+}
+nav form {
+  max-width: 400px;
+  overflow: hidden;
+}
+nav form .fa-facebook {
+  color: #1877f2;
+  font-size: 3rem !important;
+  margin-right: 5px;
+  margin-left: 10px;
+}
+nav form input {
+  position: relative;
+  height: 3rem !important;
+  border-radius: 50px;
+  border: none;
+  background-color: rgba(192, 192, 192, 0.546);
+  width: 250px;
+  outline: #1877f2;
+}
+nav form input:hover {
+  width: 350px;
+  transition: 0.3s;
+}
+nav form input::placeholder {
+  font-size: 20px;
+}
+nav ul li {
+  position: relative;
+  width: 100px;
+  height: 55px;
+  padding: 0 30px;
+  text-align: center;
+  border-radius: 10px;
+  transition: 0.3s;
+  margin: 0 20px;
+}
+nav ul li:hover{
+  background-color: rgba(192, 192, 192, 0.546);
+}
+nav ul li:hover::before  {
+  display: block;
+}
+nav ul li:hover::after {
+  display: block;
+}
+nav ul li::after {
+  position: absolute;
+  content: "";
+  width: 80px;
+  height: 35px;
+  background-color: rgba(0, 0, 0, 55%);
+  top: 65px;
+  margin: auto;
+  margin-left: -25px;
+  border-radius: 10px;
+  display: none;
+}
+nav ul li::before {
+  position: absolute;
+  content: attr(data-text);
+  color: #d3d2d2;
+  top: 65px;
+  margin-left: -10px;
+  padding: 5px;
+  font-size: 15px;
+  z-index: 1000;
+  display: none;
+}
+nav ul li i {
+  margin-top: 15px;
+  cursor: pointer;
+  font-size: 1.5rem;
+}
+nav .sit {
+  text-align: end;
+}
+nav .sit i {
+  font-size: 1.6rem;
+  margin-right: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+  padding: 10px;
+  background-color: rgba(192, 192, 192, 0.546);
+  border-radius: 80px;
+}
+nav .sit  img {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  margin-bottom: 5px;
+  cursor: pointer;
+}

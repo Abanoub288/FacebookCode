@@ -1,0 +1,77 @@
+.slide {
+  padding: 15px;
+  height: 690px;
+  overflow: scroll;
+}
+.slide .birth {
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.slide .birth:hover {
+  background-color: #b8b8bd;
+  border-radius: 20px;
+}
+.slide .header h5 {
+  font-weight: 600;
+  font-size: 20px;
+  color: #686666;
+}
+.slide .header .birth i {
+  font-size: 1.6rem;
+  cursor: pointer;
+  margin: 0 10px 20px;
+}
+.slide .header .birth p {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  color: #686666;
+}
+.slide .header .birth p strong {
+  margin-top: 10px;
+  color: #555454;
+}
+.slide .header .serch i {
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+.slide .header .serch .fa-magnifying-glass {
+  margin-right: 30px;
+}
+.slide .header .serch .fa-ellipsis {
+  margin-right: 10px;
+}
+.slide .friends .friend {
+  position: relative;
+  margin-bottom: 15px;
+}
+.slide .friends .friend img {
+  width: 35px;
+  height: 35px;
+  border: 3px solid white;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.slide .friends .friend::after {
+  position: absolute;
+  content: '';
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  left: 25px;
+  top: 25px;
+  background-color: #08e208;
+  z-index: 1000;
+}
+.slide .friends .friend h5 {
+  font-weight: 600;
+  font-size: 16px;
+}
+.slide .friends .friend {
+  transition: 0.3s;
+  cursor: pointer;
+}
+.slide .friends .friend:hover {
+  background-color: #b8b8bd;
+  border-radius: 10px;
+}

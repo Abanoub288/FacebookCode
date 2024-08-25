@@ -1,0 +1,86 @@
+.home .stores {
+  margin-top: 25px;
+}
+.home .stores div {
+  cursor: pointer;
+}
+.home .stores .story img {
+  width: 200px;
+  height: 300px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.home .stores .story div {
+  position: relative;
+  background-color: white;
+  width: 200px;
+  height: 60px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+.home .stores .story div::after {
+  position: absolute;
+  content: '+';
+  background-color: #1877f2;
+  text-align: center;
+  color: white;
+  font-weight: 400;
+  font-size: 27px;
+  border-radius: 50px;
+  width: 45px;
+  height: 45px;
+  left: 76px;
+  top: -21px;
+  border: 5px solid white;
+}
+.home .stores .story div::before {
+  position: absolute;
+  content: 'Create stroy';
+  bottom: 0;
+  margin-left: 50px;
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+
+.home .stores .last {
+  margin-right: 30px;
+}
+.home .stores .story-me {
+  position: relative;
+}
+.home .stores .story-me .img2 {
+  width: 200px;
+  height: 360px;
+  border-radius: 20px;
+}
+.home .stores .story-me .img1 {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin: 15px;
+  border: 5px solid #1877f2;
+}
+.home .stores .story-fr::after {
+  position: absolute;
+  content: '';
+  width: 15px;
+  height: 15px;
+  top: 55px;
+  left: 60px;
+  border-radius: 50%;
+  background-color: #08e208;
+}
+.home .stores .story-me h5 {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  color: white;
+  font-weight: 600;
+}
+.home .stores div {
+  transition: 0.3s;
+}
+.home .stores div:hover {
+  filter: grayscale(40%);
+}

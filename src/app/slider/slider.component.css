@@ -1,0 +1,93 @@
+.slid {
+  padding: 20px;
+  height: 690px;
+  transition: 0.1s;
+}
+.slid:hover {
+  overflow-y: scroll;
+}
+.slid div:hover {
+  background-color: #b8b8bd;
+  transition: 0.3s;
+  border-radius: 20px;
+  padding: 0 5px;
+}
+.slid .div1 {
+  margin-bottom: 20px;
+  transition: 0.3s;
+}
+.slid .div1 img {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+.slid .div1 h5 {
+  font-weight: 600;
+  margin-left: 15px;
+}
+.slid .div1 i {
+  font-size: 1.9rem;
+  margin-left: 5px;
+}
+.slid .div2 {
+  margin-left: px;
+}
+.slid .div2 i {
+  margin-left: 10px;
+  font-size: 1.9rem;
+}
+.slid .div2 h5 {
+  font-weight: 600;
+  margin-left: 22px;
+}
+.slid .div3 {
+  margin-left: 3px;
+  margin-top: 15px;
+}
+.slid .div3 h5 {
+  margin-left: 20px;
+  padding-top: 3px;
+}
+.slid .div4 {
+  margin-left: -1px;
+  transition: 0.3s;
+}
+.slid .div4 h5 {
+  margin-left: 10px;
+}
+.slid .div5 {
+  transition: 0.3s;
+}
+.slid .div5 i {
+  margin-bottom: 10px;
+}
+.slid .div6 {
+  transition: 0.3s;
+}
+.slid .div6 i {
+  margin-left: -2px;
+}
+.slid .see {
+  transition: 0.3s;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.slid .see i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 1rem;
+  margin-left: 8px;
+  background-color: #b8b8bd;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+}
+.slid .see h5 {
+  margin-left: 10px;
+  font-weight: 600;
+  margin-left: 15px;
+}

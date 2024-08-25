@@ -1,0 +1,70 @@
+<div class="slid position-fixed">
+  <div class="d-flex align-items-center div1">
+    <img src="../../assets/profile-img.jpg">
+    <h5>Abanoub Shenouda</h5>
+  </div>
+  <div class="d-flex align-items-center div1">
+    <i class="fa-solid fa-user-group" style="color: #74C0FC;"></i>
+    <h5 class="mt-1">Friends</h5>
+  </div>
+  <div class="d-flex align-items-center div2">
+    <i class="fa-solid fa-bookmark" style="color: #74C0FC;"></i>
+    <h5 class="mt-1">Saved</h5>
+  </div>
+  <div class="d-flex align-items-center div1 div3">
+    <i class="fa-solid fa-calendar-plus" style="color: #74C0FC;"></i>
+    <h5 class="mt-1">Events</h5>
+  </div>
+  <div class="d-flex align-items-center div1">
+    <i class="fa-solid fa-clock" style="color: #74C0FC;"></i>
+    <h5 class="mt-1">Memories</h5>
+  </div>
+  <div class="d-flex align-items-center see" *ngIf="!isClick" (click)="seeMore()">
+    <i class="fa-solid fa-angle-down"></i>
+    <h5 class="mt-1">See more</h5>
+  </div>
+  <div class="d-flex align-items-center  div1 div4 " *ngIf="isClick">
+    <i class="fa-solid fa-users-line" style="color: #74C0FC;"></i>
+    <h5 class="mt-1">Groups</h5>
+  </div>
+  <div class="d-flex align-items-center  div1 div5 " *ngIf="isClick">
+    <i class="fa-solid fa-chart-simple" style="color: #74C0FC;"></i>
+    <h5 class="mt-1">Ads Manager</h5>
+  </div>
+  <div class="d-flex align-items-center  div1 div5 " *ngIf="isClick">
+    <i class="fa-solid fa-droplet" style="color: #74C0FC;"></i>
+    <h5 class="mt-1">Blood Donations</h5>
+  </div>
+  <div class="d-flex align-items-center  div1 " *ngIf="isClick">
+    <i class="fa-brands fa-gratipay" style="color: #74C0FC;"></i>
+    <h5 class="mt-1">Fundraisers</h5>
+  </div>
+  <div class="d-flex align-items-center  div1 div6 " *ngIf="isClick">
+    <i class="fa-solid fa-gamepad" style="color: #74C0FC;"></i>
+    <h5 class="mt-1">Gaming Video</h5>
+  </div>
+  <div class="d-flex align-items-center  div1 div6 " *ngIf="isClick">
+    <i class="fa-solid fa-store" style="color: #74C0FC;"></i>
+    <h5 class="mt-1">Marketplace</h5>
+  </div>
+  <div class="d-flex align-items-center  div1 " *ngIf="isClick">
+    <i class="fa-brands fa-facebook-messenger" style="color: #74C0FC;"></i>
+    <h5 class="mt-1">Messenger</h5>
+  </div>
+  <div class="d-flex align-items-center  div1 " *ngIf="isClick">
+    <i class="fa-solid fa-hockey-puck fa-rotate-90" style="color: #74C0FC;"></i>
+    <h5 class="mt-1">Orders and payments </h5>
+  </div>
+  <div class="d-flex align-items-center div1 " *ngIf="isClick">
+    <i class="fa-solid fa-flag" style="color: #74C0FC;"></i>
+    <h5 class="mt-1">Pages</h5>
+  </div>
+  <div class="d-flex align-items-center div1 " *ngIf="isClick">
+    <i class="fa-solid fa-image" style="color: #74C0FC;"></i>
+    <h5 class="mt-1">Recent and activity</h5>
+  </div>
+  <div class="d-flex align-items-center see " *ngIf="isClick" (click)="seeLess()">
+    <i class="fa-solid fa-angle-down fa-rotate-180"></i>
+    <h5 class="mt-1">See less</h5>
+  </div>
+</div>
